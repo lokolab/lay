@@ -39,6 +39,11 @@ Example usage
         });
     })(luen);
 
+API
+---
+
+- scrollDom ( object: __options__ ): self
+
 References
 ----------
 
