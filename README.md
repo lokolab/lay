@@ -1,7 +1,7 @@
-scroll-dom
-==========
+lay
+===
 **This is development (master) version.<br> For production version (relase) see
-<https://github.com/lokolab/scroll-dom/tree/v0.0.1>**
+<https://github.com/lokolab/lay/tree/v0.0.1>**
 - Version: 0.0.1-dev
 - Technologies:
   - JavaScript
@@ -20,8 +20,8 @@ scroll-dom
 - Download: <https://github.com/lokolab/scroll-dom/releases>
 - Homepage: <http://www.lokolab.net>
 
-Scroll-dom is a JavaScript plugin for Luen library.
-___________________________________________________
+Lay is a JavaScript plugin for Luen library.
+____________________________________________
 
 Example usage
 -------------
