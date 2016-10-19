@@ -1,7 +1,7 @@
-lay
+lui
 ===
 **This is development (master) version.<br> For production version (relase) see
-<https://github.com/lokolab/lay/tree/v0.0.1>**
+<https://github.com/lokolab/lui/tree/v0.0.1>**
 - Version: 0.0.1-dev
 - Technologies:
   - JavaScript
@@ -20,7 +20,7 @@ lay
 - Download: <https://github.com/lokolab/scroll-dom/releases>
 - Homepage: <http://www.lokolab.net>
 
-Lay is a JavaScript plugin for Luen library.
+Lui is a JavaScript plugin for Luen library.
 ____________________________________________
 
 Example usage
