@@ -17,7 +17,7 @@ lui
   - Krystian Pietruszka <kpietru@lokolab.net>
 - Licenses:
   - MIT <http://opensource.org/licenses/MIT>
-- Download: <https://github.com/lokolab/scroll-dom/releases>
+- Download: <https://github.com/lokolab/lui/releases>
 - Homepage: <http://www.lokolab.net>
 
 Lui is a JavaScript plugin for Luen library.
