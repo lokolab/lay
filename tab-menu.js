@@ -6,7 +6,7 @@
  */
 
 (function($) {
-    $.ns.tabMenu = function(options) {
+    $.fn.tabMenu = function(options) {
         $.assertType(options, 'undefined', 'object');
         var defaults = {
             activeTab: null,
