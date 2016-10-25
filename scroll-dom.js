@@ -18,7 +18,7 @@
      *
      * @return {Luen} The invoked object.
      */
-    $.ns.scrollDom = function(options) {
+    $.fn.scrollDom = function(options) {
         $.assertType(options, 'undefined', 'object');
         var defaults = {
             callbackOneDown: function() {},
@@ -31,16 +31,16 @@
             defaults,
             typeof options === 'undefined' ? {} : options
         );
-        $(document).on('scroll', $.ns.scrollDom);
+        $(document).on('scroll', $.fn.scrollDom);
         if (_scrollDomDocument === null) {
             _scrollDomDocument = this;
             return this;
         }
         // http://stackoverflow.com/a/1223463
-        if (typeof($.ns.scrollDom.y) === 'undefined') {
-            $.ns.scrollDom.y = window.pageYOffset;
+        if (typeof($.fn.scrollDom.y) === 'undefined') {
+            $.fn.scrollDom.y = window.pageYOffset;
         }
-        var diffY = $.ns.scrollDom.y - window.pageYOffset;
+        var diffY = $.fn.scrollDom.y - window.pageYOffset;
         if (diffY < 0) {
             // scroll down
             if (_scrollDomOneSwitcher === false) {
@@ -56,7 +56,7 @@
             }
             _scrollDomDocument.settings.callbackUp();
         }
-        $.ns.scrollDom.y = window.pageYOffset;
+        $.fn.scrollDom.y = window.pageYOffset;
         return _scrollDomDocument;
     };
 })(luen);
